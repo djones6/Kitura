@@ -107,7 +107,7 @@ class FileResourceServer {
                     }
                 }
             } catch {
-              Log.error("No packages found in \(packagePath)")
+              Log.error("No packages found in \(packagePath) - underlying error \(error)")
             }
         }
         return nil
